@@ -1,0 +1,50 @@
+#input-display{
+  width: 94%;
+  height: 35px;
+  margin: 0px 5px 0px 5px;
+  background-color: #d9d9d9;
+  border: 2px solid grey;
+  border-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #330033;
+  background-color: #ecf0f3;
+  border-top: 2px solid #330033;
+  border-left: 2px solid #330033;
+  border-right: 2px solid #330033;
+}
+
+#result-display {
+  width: 95.3%;
+  height: 35px;
+  margin: 0px 5px 10px 5px;
+  background-color: #d9d9d9;
+  border: 2px solid grey;
+  border-top: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #ecf0f3;
+  border-left: 2px solid #330033;
+  border-right: 2px solid #330033;
+  border-bottom: 2px solid #330033;
+}
+
+.result {
+  float: right;
+  padding-right: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:focus, input:active{
+  outline: none;
+}
